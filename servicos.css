@@ -1,0 +1,94 @@
+#servicos {
+    min-height: 825px;
+    background: linear-gradient(#3575AD,#3535AD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+
+.h1titulo {
+    color: white;
+    font-size: 30px;
+}
+
+.ptexto {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.card {
+    background-color: #1e212c;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px 12px black;
+}
+
+.card h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-sack-dollar,.fa-sitemap,.suporte {
+    font-size: 50px;
+}
+
+.card p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.card button {
+    background-color: #2AA615;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.card:hover button {
+    background-color: #aedfa5; 
+}
+
+.card button:hover {
+    background-color: #aedfa5;
+}
+
+.card:hover h3 {
+    text-decoration: underline;
+}
+
+.card button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

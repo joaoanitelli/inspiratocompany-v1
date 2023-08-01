@@ -1,0 +1,119 @@
+#contato {
+    min-height: 900px;
+    background: linear-gradient(#3575AD,#3535AD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+    
+}
+
+.botoes {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+#contato h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#contato h4 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#contato button{
+    background-color: #2AA615;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    width: 400px;
+}
+
+#contato button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.anglodireito {
+    font-size: 17px;
+}
+
+
+#logo img{
+    margin-left: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#menu-footer {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+#menu-footer a {
+    color: white;
+}
+
+.footer {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0px 40px;
+}
+
+#endereco h1{
+    font-weight: normal;
+    text-align: left;
+}
+
+#email {
+    display: flex;
+}
+
+#contatos {
+    display: flex;
+    gap:20px;
+    color: white;
+    text-decoration: underline;
+    flex-direction: row;
+}
+
+#telefones {
+    display: flex;
+    gap: 10px;
+}
+
+#copy {
+    color: white;
+}
+
+#suporte {
+    margin-top: 20px;
+}
+
+.botoes h3 {
+    color: white;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}

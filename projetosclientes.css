@@ -1,0 +1,86 @@
+#clientes {
+    min-height: 825px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+    gap: 50px;
+}
+
+#clientes::before {
+    content: ' ';
+    background: url(imagens/background/5667001.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+}
+
+.wrapper i{
+    top: 50%;
+    position: absolute;
+    background: #fff;
+    border: 1px solid black;
+    height: 46px;
+    width: 46px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.wrapper i:first-child{
+    left: -23px;
+    display: none;
+}
+
+.wrapper i:last-child{
+    right: -23px;
+}
+
+.wrapper .carousel {
+    font-size: 40px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.carousel img {
+    height: 340px;
+    width: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
+    scroll-behavior: smooth;
+}
+
+.carousel .dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel .dragging img {
+    pointer-events: none;
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
+#textoclientes {
+    text-align: center;
+    font-size: 36px;
+}

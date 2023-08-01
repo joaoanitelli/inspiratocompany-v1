@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+#inicio {
+    min-height: 1000px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#inicio::before {
+    content: ' ';
+    background: url(imagens/background/5667001.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1300px;
+    z-index: 1;
+    min-height: 800px;
+    gap: -60px;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 500px;
+    height: 600px;
+    text-align: center;
+    z-index: 1;
+}
+
+#h1inicio {
+    letter-spacing: 2px;
+    text-align: left;
+    z-index: 1;
+    font-size: 40px;
+    color: rgb(27, 27, 27);
+    font-weight: 500;
+}
+
+#pinicio {
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgb(128, 128, 128);
+}
+
+.button1 {
+    background-color: #2AA615;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button1:hover {
+    background-color: #aedfa5;
+}
+
+.buttonlink1 {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #2AA615;
+}
+
+.direita {
+    z-index: 1;
+}
+
+.imagemdireita {
+    max-width: 100%;
+    max-height: 860px;
+    margin-bottom: -144px;
+}
+
+.fa-whatsapp {
+    font-size: 20px;
+}

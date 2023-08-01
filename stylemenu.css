@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background:linear-gradient(120deg,#3535AD,#3575AD);
+    box-shadow: 1px 1px 15px #3535AD;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color:#fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0px 15px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+    transform: 2ms ease-in;
+    position: relative;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+.nav-link:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: yellow;
+    transition: all 1.5s ease;
+}
+
+.nav-link:hover:before {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: rgb(192, 192, 192);
+}
+
+.login-button {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.login-button button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.fa-brands {
+    font-size: 36px;
+}
+
+.fa-solid {
+    font-size: 32px;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+

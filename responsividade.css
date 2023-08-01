@@ -1,0 +1,207 @@
+@media screen and (max-width:920px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 2rem;
+    }
+
+
+    .mobile-menu .login-button {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2rem
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .carousel img {
+        width: calc(100%/2);
+    }
+
+    .cards .card-3 {
+        margin-bottom: 80px;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width:1235px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    .h1titulo {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .carousel img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    #h1inicio {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 448px) {
+    #h1inicio {
+        font-size: 30px;
+    }
+
+    #pinicio {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 312px) {
+    .direita img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #inicio .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #inicio .conteudo .esquerda {
+        margin-top: 200px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #inicio .conteudo .direita {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .h1titulo {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:1450px) {
+    #servicos p, .botoes h1{
+        margin: 0px 40px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    #contatos {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1540px) {
+    #contato button {
+        width: 350px;
+    }
+}
+@media screen and (max-width:1355px) {
+    #contato button {
+        width: 300px;
+    }
+}
+@media screen and (max-width:1165px) {
+    #contato button {
+        width: 250px;
+    }
+}
+@media screen and (max-width:990px) {
+    #contato button {
+        width: 220px;
+    }
+}
+@media screen and (max-width:890px) {
+    #contato button {
+        width: 220px;
+    }
+}
+@media screen and (max-width:850px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #contato button {
+        width: 400px;
+    }
+}
+@media screen and (max-width:450px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #contato button {
+        width: 350px;
+    }
+
+    #contato button a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    #contato button {
+        width: 300px;
+    }
+}
